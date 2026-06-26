@@ -1,6 +1,6 @@
-# Formulário de Cancelamento/Pausa — Condropure
+# Formulário de Cancelamento/Pausa — Produto
 
-Formulário em PHP para solicitar pausa ou cancelamento de assinatura do produto Condropure, com integração à API Klaviyo, validação de cliente e máscara de telefone (formato Brasil).
+Formulário em PHP para solicitar pausa ou cancelamento de assinatura de um produto, com integração à API Klaviyo, validação de cliente e máscara de telefone (formato Brasil).
 
 ## Como funciona
 
@@ -26,17 +26,17 @@ Formulário em PHP para solicitar pausa ou cancelamento de assinatura do produto
 
 **Cancelamento com pré-preenchimento:**
 ```
-https://exemplo.com.br/condropure-cancel/?name=Joao%20Silva&email=joao%40exemplo.com&phone=5511999999999&cancel_type=cancellation
+https://exemplo.com.br/produto-cancel/?name=Joao%20Silva&email=joao%40exemplo.com&phone=5511999999999&cancel_type=cancellation
 ```
 
 **Pausa com pré-preenchimento:**
 ```
-https://exemplo.com.br/condropure-cancel/?name=Maria%20Silva&email=maria%40exemplo.com&phone=5521987654321&cancel_type=pause
+https://exemplo.com.br/produto-cancel/?name=Maria%20Silva&email=maria%40exemplo.com&phone=5521987654321&cancel_type=pause
 ```
 
 **Sem pré-preenchimento (formulário vazio):**
 ```
-https://exemplo.com.br/condropure-cancel/
+https://exemplo.com.br/produto-cancel/
 ```
 
 ## Arquivos
