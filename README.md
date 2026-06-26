@@ -26,17 +26,17 @@ Formulário em PHP para solicitar pausa ou cancelamento de assinatura do produto
 
 **Cancelamento com pré-preenchimento:**
 ```
-https://quiz.petvi.com.br/condropure-cancel/?name=Joao%20Silva&email=joao%40exemplo.com&phone=5511999999999&cancel_type=cancellation
+https://exemplo.com.br/condropure-cancel/?name=Joao%20Silva&email=joao%40exemplo.com&phone=5511999999999&cancel_type=cancellation
 ```
 
 **Pausa com pré-preenchimento:**
 ```
-https://quiz.petvi.com.br/condropure-cancel/?name=Maria%20Silva&email=maria%40exemplo.com&phone=5521987654321&cancel_type=pause
+https://exemplo.com.br/condropure-cancel/?name=Maria%20Silva&email=maria%40exemplo.com&phone=5521987654321&cancel_type=pause
 ```
 
 **Sem pré-preenchimento (formulário vazio):**
 ```
-https://quiz.petvi.com.br/condropure-cancel/
+https://exemplo.com.br/condropure-cancel/
 ```
 
 ## Arquivos
