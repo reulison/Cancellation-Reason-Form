@@ -2,8 +2,6 @@
 
 Formulário em PHP para solicitar pausa ou cancelamento de assinatura do produto Condropure, com integração à API Klaviyo, validação de cliente e máscara de telefone (formato Brasil).
 
-**Acesse em produção:** https://quiz.petvi.com.br/condropure-cancel/
-
 ## Como funciona
 
 - A página `index.php` exibe o formulário e aceita parâmetros via URL: `name`, `email`, `phone` e `cancel_type`.
